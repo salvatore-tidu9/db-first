@@ -17,7 +17,7 @@ Cilindrata(cc)               numero          SMALLINT                NOT NULL
 
 Alimentazione                stringa         VARCHAR(15)             NOT NULL
 
-Capacità Serbatoio (l)       numero          TINYINT                 NOT NULL
+Capacità Serbatoio (l)       numero          SMALLINT                NOT NULL
 
 Tipologia Cambio             stringa         VARCHAR(15)             NOT NULL
 
