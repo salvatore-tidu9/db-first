@@ -1,0 +1,40 @@
+CARS_DB
+
+
+id                           numero          AUTO_INCREMENT          NOT NULL                       PRIMARY KEY
+
+Marca                        stringa         VARCHAR(20)             NOT NULL                       UNIQUE
+
+Modello                      stringa         VARCHAR(20)             NOT NULL                       UNIQUE
+
+Anno                         numero          YEAR                    NOT NULL
+
+Immatricolazione             data            YEAR                    NOT NULL
+
+Potenza(cv)                  numero          SMALLINT                NOT NULL
+
+Cilindrata(cc)               numero          SMALLINT                NOT NULL
+
+Alimentazione                stringa         VARCHAR(15)             NOT NULL
+
+Capacità Serbatoio (l)       numero          TINYINT                 NOT NULL
+
+Tipologia Cambio             stringa         VARCHAR(15)             NOT NULL
+
+Marce                        numero          TINYINT                 NOT NULL
+ 
+Porte                        numero          TINYINT                 NULL
+
+Posti                        numero          TINYINT                 NULL
+
+Capacità Bagagliaio (l)      numero          SMALLINT                NULL
+
+Peso(kg)                     numero          SMALLINT                NULL
+
+Colore                       stringa         VARCHAR(15)             NULL 
+
+Foto                         stringa         TEXT                    DEFAULT('default.jpg')
+
+Prezzo                       numero          FLOAT(10,3)             NULL
+
+
