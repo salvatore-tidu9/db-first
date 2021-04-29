@@ -15,9 +15,11 @@ Potenza(cv)                  numero          SMALLINT                NOT NULL
 
 Cilindrata(cc)               numero          SMALLINT                NOT NULL
 
+KM                           numero          INT                     NOT NULL
+
 Alimentazione                stringa         VARCHAR(15)             NOT NULL
 
-Capacità Serbatoio (l)       numero          SMALLINT                NOT NULL
+Capacità Serbatoio(l)        numero          SMALLINT                NOT NULL
 
 Tipologia Cambio             stringa         VARCHAR(15)             NOT NULL
 
@@ -27,7 +29,7 @@ Porte                        numero          TINYINT                 NULL
 
 Posti                        numero          TINYINT                 NULL
 
-Capacità Bagagliaio (l)      numero          SMALLINT                NULL
+Capacità Bagagliaio(l)       numero          SMALLINT                NULL
 
 Peso(kg)                     numero          SMALLINT                NULL
 
@@ -35,6 +37,7 @@ Colore                       stringa         VARCHAR(15)             NULL
 
 Foto                         stringa         TEXT                    DEFAULT('default.jpg')
 
-Prezzo                       numero          FLOAT(10,3)             NULL
+Descrizione                  stringa         TEXT                    NULL
 
+Prezzo                       numero          FLOAT(10,3)             NULL
 
